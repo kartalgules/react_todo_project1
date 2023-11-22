@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
+}
+html{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/005/887/014/original/aesthetic-hand-drawn-paper-note-on-abstract-shapes-background-design-eps10-great-to-be-used-as-a-paper-note-with-high-quality-background-design-free-vector.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  transition: all 1s; 
+  
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: rgb(78, 77, 77);
+  height: max-content;
+  width: 65%;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 32vh;
+  width: 48vh;
+}
+.giris{
+  display: flex;
+  position: relative;
+  margin-top: 2%;
+}
+input{
+  width: 80%; 
+  height: 6vh;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 80px ;
+  opacity: .8;
+  text-align: center;
+  box-shadow: 7px 7px 20px -3px rgba(0,0,0,0.51);
+}
+button{
+  position: absolute;
+  height: 5.6vh;
+  width: 12%;
+  border-radius: 0px 30px 30px 0px ;
+  aspect-ratio: 1;
+  right: 1px;
+  bottom: 2px;
+}
+input, button {
+  margin: 0 75px;
+  border: none;
+  background: #f8f3ed;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+button:active{
+  transform: scale(0.96);
+}
+ul{
+  display: flex;
+  flex-wrap:wrap;
+  height: 100%;
+  margin-bottom: 9%;
+}
+li{
+  display: -webkit-box;
+  position: relative;
+  margin: 15px;
+  color: rgba(0, 0, 0, 0.666);
+  background-color: rgb(241, 245, 1);
+  border-radius: 15px;
+  min-height: 150px;
+  height: max-content;
+  min-width: 15vh;
+  max-width: 47%;
+  font-size: 20px;
+  font-weight: 680;
+  list-style: none;
+  text-align: start;
+  padding: 30px;
+  overflow-wrap: anywhere;
+  box-shadow: 7px 7px 10px -1px rgba(0,0,0,0.51);
+}
+.fa-solid{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+@media only screen and (max-width : 2000px){
+  ul{
+    margin-bottom: 7%;
+  }
+  li{
+    margin: 13px;
+    min-height: 130px;
+    min-width: 13vh;
+    max-width: 40%;
+    font-size: 18px;
+    padding: 27px;
+  }
+  input{
+    height: 5vh;
+    padding-right: 50px ;
+  }
+  button{
+    height: 4.6vh;
+  }
+  input, button {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width : 1700px){
+  ul{
+    margin-bottom: 5%;
+  }
+  li{
+    margin: 10px;
+    min-height: 110px;
+    min-width: 11vh;
+    max-width: 35%;
+    font-size: 15px;
+    padding: 25px;
+  }
+  .fa-solid{
+    right: 13px;
+    bottom: 13px;
+  }
+  input, button {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width : 1400px){
+  ul{
+    margin-bottom: 4%;
+  }
+  li{
+    margin: 8px;
+    min-height: 90px;
+    min-width: 9vh;
+    max-width: 30%;
+    font-size: 13px;
+    padding: 23px;
+  }
+  .fa-solid{
+    right: 11px;
+    bottom: 11px;
+  }
+  input, button {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width : 1200px){
+  ul{
+    margin-bottom: 3%;
+  }
+  li{
+    margin: 6px;
+    min-height: 80px;
+    min-width: 7vh;
+    max-width: 27%;
+    font-size: 11px;
+    padding: 20px;
+  }
+  input{
+    height: 5vh;
+    padding-right: 50px ;
+  }
+  button{
+    height: 4.6vh;
+  }
+  input, button {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  input, button {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width : 1000px){
+  ul{
+    margin-bottom: 2%;
+  }
+  li{
+    margin: 5px;
+    min-height: 75px;
+    min-width: 6vh;
+    max-width: 25%;
+    font-size: 9px;
+    padding: 18px;
+  }
+  .fa-solid{
+    right: 10px;
+    bottom: 10px;
+  }
+  input{
+    height: 5vh;
+    padding-right: 50px ;
+  }
+  button{
+    height: 4.6vh;
+  }
+  input, button {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width : 800px){
+  ul{
+    margin-bottom: 1%;
+  }
+  li{
+    margin: 4px;
+    min-height: 72px;
+    min-width: 5vh;
+    max-width: 23%;
+    font-size: 8px;
+    padding: 16px;
+  }
+  input{
+    height: 4vh;
+    padding-left: 15px;
+    padding-right: 37px ;
+    
+  }
+  button{
+    height: 3.6vh;
+    width: 10%;
+  }
+  input, button {
+    font-size: 10px;
+    margin-bottom: 18px;
+  }
+}
+@media only screen and (max-width : 600px){
+  ul{
+    margin-bottom: 1%;
+  }
+  li{
+    margin: 3px;
+    min-height: 68px;
+    min-width: 4vh;
+    max-width: 18%;
+    font-size: 7px;
+    padding: 14px;
+  }
+  input{
+    width: 80%;
+    height:3vh;
+    padding-left: 15px;
+    padding-right: 27px ;
+    
+  }
+  button{
+    height: 2.3vh;
+    width: 10%;
+  }
+  input, button {
+    font-size: 8px;
+    margin-bottom: 18px;
+  }
+  body{
+    width: 75%;
+  }
+}
+@media only screen and (max-width : 380px){
+  ul{
+    margin-bottom: 1%;
+  }
+  li{
+    margin: 5px;
+    min-height: 50px;
+    min-width: 10vh;
+    max-width: 40%;
+    font-size: 10px;
+    padding: 14px;
+  }
+  input{
+    width: 80%;
+    height:5vh;
+    padding-left: 15px;
+    padding-right: 27px ;
+    
+  }
+  button{
+    height: 4.3vh;
+    width: 10%;
+  }
+  input, button {
+    font-size: 8px;
+    margin-bottom: 18px;
+  }
+  body{
+    width: 75%;
+  }
+}
